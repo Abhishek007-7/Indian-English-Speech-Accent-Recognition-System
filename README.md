@@ -155,4 +155,4 @@ python app.py
 
 ## 🙏 **Acknowledgments**
 
-This project was conducted as part of the B.Tech program at Amrita School of Engineering, Bengaluru, under the guidance of **Dr. Susmitha Vekkot** and **Dr. T.K. Ramesh**.
+This project was conducted as part of the B.Tech program at Amrita School of Engineering, Bengaluru, under the guidance of **Dr. Susmitha Vekkot**.
