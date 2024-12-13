@@ -1,13 +1,11 @@
-# Indian-English-Speech-Accent-Recognition-System
-
-Developed a regional accent detection system using Indic TTS dataset with MFCC features and models like SVM, Random Forest, CNN, and LSTM. Achieved robust performance across 16 Indian accents using stratified 10-fold cross-validation, optimizing accuracy, precision, recall, and F1 score.
-
+# Indian English Speech Accent Recognition System
 
 This repository contains the implementation of an Indian English Speech Accent Recognition System, which uses machine learning and deep learning techniques to classify accents based on regional variations in spoken English across India.
 
 ## Project Overview
 
 The goal of this project is to enhance the adaptability and inclusivity of speech recognition systems by accurately identifying regional accents in Indian English. This system can be integrated into Automatic Speech Recognition (ASR) tools to improve performance and usability for users with diverse linguistic backgrounds.
+Developed a regional accent detection system using Indic TTS dataset with MFCC features and models like SVM, Random Forest, CNN, and LSTM. Achieved robust performance across 16 Indian accents using stratified 10-fold cross-validation, optimizing accuracy, precision, recall, and F1 score.
 
 ## Dataset
 
