@@ -147,9 +147,9 @@ python app.py
 
 ## 👥 **Contributors**
 
-- **Abhishek M.V**  
-- **A. Jaya Sreekar**  
-- **Mohith D.M**
+- **Abhishek M V**  
+- **A Jaya Sreekar**  
+- **Mohith D M**
 
 ---
 
