@@ -2,45 +2,70 @@
 
 This repository contains the implementation of an Indian English Speech Accent Recognition System, which uses machine learning and deep learning techniques to classify accents based on regional variations in spoken English across India.
 
-## Project Overview
+---
+
+## 🎯 **Project Overview**
 
 The goal of this project is to enhance the adaptability and inclusivity of speech recognition systems by accurately identifying regional accents in Indian English. This system can be integrated into Automatic Speech Recognition (ASR) tools to improve performance and usability for users with diverse linguistic backgrounds.
-Developed a regional accent detection system using Indic TTS dataset with MFCC features and models like SVM, Random Forest, CNN, and LSTM. Achieved robust performance across 16 Indian accents using stratified 10-fold cross-validation, optimizing accuracy, precision, recall, and F1 score.
 
-## Dataset
+**Highlights:**
+- Developed a regional accent detection system using the Indic TTS dataset with MFCC features.
+- Leveraged models like **SVM**, **Random Forest**, **CNN**, and **LSTM**.
+- Achieved robust performance across **16 Indian accents** using stratified 10-fold cross-validation, optimizing metrics such as **accuracy**, **precision**, **recall**, and **F1 score**.
+
+---
+
+## 📂 **Dataset**
 
 The dataset used for this project is the **Indic TTS** database, developed by IIT Madras. It is a comprehensive dataset designed to support speech-related research, including:
 
-- High-quality audio samples recorded by male and female speakers.
+- High-quality audio samples recorded by **male and female speakers**.
 - Representation of accents from the following Indian languages:
-  - **Bengali**
-  - **Gujarati**
-  - **Kannada**
-  - **Malayalam**
-  - **Marathi**
-  - **Rajasthani**
-  - **Telugu**
+
+| Language | Accent |
+|----------|--------|
+| Bengali  | ✅ Male, ✅ Female |
+| Gujarati | ✅ Male, ✅ Female |
+| Kannada  | ✅ Male, ✅ Female |
+| Malayalam| ✅ Male, ✅ Female |
+| Marathi  | ✅ Male, ✅ Female |
+| Rajasthani| ✅ Male, ✅ Female |
+| Telugu   | ✅ Male, ✅ Female |
 
 The dataset can be downloaded from the [Indic TTS website](https://www.iitm.ac.in/donlab/indictts/database).
 
-### Data Composition
+### 🔍 **Data Composition**
 - **Number of Speakers**: Both male and female speakers are equally represented.
 - **Audio Quality**:
-  - Uniform length of 10 seconds per clip.
-  - Sampling rate resampled to 16 kHz.
+  - Uniform length of **10 seconds** per clip.
+  - Sampling rate resampled to **16 kHz**.
 - **Data Split**:
   - **Training**: 70%
   - **Testing**: 20%
   - **Validation**: 10%
 
-## Features
+| **Accent**   | **Female Count** | **Male Count** |
+|--------------|------------------|----------------|
+| Bengali      | 4,197            | 5,316          |
+| Gujarati     | 4,670            | 4,824          |
+| Kannada      | 5,406            | 5,825          |
+| Malayalam    | 5,132            | 5,131          |
+| Marathi      | 5,059            | 5,578          |
+| Rajasthani   | 4,933            | 5,946          |
+| Telugu       | 2,969            | 3,183          |
+
+---
+
+## 🛠️ **Features**
 
 The system uses the following features extracted from audio:
 - **Mel-Frequency Cepstral Coefficients (MFCCs)**: Capture phonetic details.
 - **Chroma Features**: Represent harmonic content.
 - **Spectral Contrast**: Highlight energy variations across frequencies.
 
-## Models
+---
+
+## 🤖 **Models**
 
 The following machine learning and deep learning models were used:
 - **Support Vector Machine (SVM)**
@@ -50,10 +75,12 @@ The following machine learning and deep learning models were used:
 - **Decision Trees**
 - **CNN-LSTM**
 
-### Best Performing Model
+### 🏆 **Best Performing Model**
 - **XGBoost** achieved the highest accuracy of **99.02%**, followed by **CNN-LSTM** with **98.70%**.
 
-## Methodology
+---
+
+## 🧩 **Methodology**
 
 1. **Data Preprocessing**:
    - Noise reduction, normalization, and signal conditioning.
@@ -70,18 +97,22 @@ The following machine learning and deep learning models were used:
 4. **Interface**:
    - A user-friendly GUI developed with Tkinter allows real-time predictions by uploading audio files.
 
-## Results
+---
 
-| Model               | Accuracy (%) |
-|---------------------|--------------|
-| XGBoost            | 99.02        |
-| CNN-LSTM           | 98.70        |
-| Random Forest       | 98.86        |
-| Logistic Regression | 97.95        |
-| SVM                 | 95.89        |
-| Decision Tree       | 94.65        |
+## 📊 **Results**
 
-## Installation
+| **Model**            | **Accuracy (%)** |
+|----------------------|------------------|
+| **XGBoost**         | **99.02**        |
+| **CNN-LSTM**        | **98.70**        |
+| Random Forest        | 98.86           |
+| Logistic Regression  | 97.95           |
+| SVM                  | 95.89           |
+| Decision Tree        | 94.65           |
+
+---
+
+## 🚀 **Installation**
 
 1. Clone the repository:
    ```bash
@@ -94,26 +125,34 @@ The following machine learning and deep learning models were used:
 3. Download the dataset from the [Indic TTS website](https://www.iitm.ac.in/donlab/indictts/database).
 4. Preprocess the dataset using the scripts provided in the repository.
 
-## Usage
+---
+
+## 💻 **Usage**
 
 Run the GUI for real-time accent predictions:
 ```bash
 python app.py
 ```
 
-## Future Scope
+---
+
+## 🌟 **Future Scope**
 
 - Extend the dataset to include more accents and dialects.
 - Integrate advanced deep learning architectures like transformers.
 - Explore real-time accent recognition in noisy environments.
 - Develop models to handle multilingual and code-switched speech.
 
-## Contributors
+---
+
+## 👥 **Contributors**
 
 - **Abhishek M.V**  
 - **A. Jaya Sreekar**  
 - **Mohith D.M**
 
-## Acknowledgments
+---
+
+## 🙏 **Acknowledgments**
 
 This project was conducted as part of the B.Tech program at Amrita School of Engineering, Bengaluru, under the guidance of **Dr. Susmitha Vekkot** and **Dr. T.K. Ramesh**.
